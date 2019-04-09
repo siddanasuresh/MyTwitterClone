@@ -21,6 +21,5 @@ namespace MyTwitterClone.Models
         public Person User { get; set; }
         
         public ICollection<Tweet> TweetList { get; set; }
-
     }
 }
